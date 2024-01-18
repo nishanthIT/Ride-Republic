@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^5.0.2",
+    "@mapbox/search-js-react": "^1.0.0-beta.18",
+    "mapbox-gl": "^3.0.1",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "twin.macro": "^3.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
