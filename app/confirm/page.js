@@ -1,5 +1,5 @@
 'use client';
-import Map from '@/components/map'
+import Map from '@/components/Map'
 import React, { useState } from 'react'
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { useEffect } from 'react';
@@ -107,7 +107,7 @@ useEffect(() =>{
       {/* map */}
         <Map pickup={pickup} dropoff={dropoff} setdistance={handleChildData}/>
       {/* select section   */}
-      <div className='flex-1 flex flex-col  h-1/2  md:h-auto overflow-hidden'>
+      <div className='flex-1 flex flex-col  h-1/2  md:h-auto '>
      <RideSelectSection distance={distance} setcarid={setcarid} car={car}/>
      <div className='border-t-2'>
       

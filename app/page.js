@@ -1,78 +1,7 @@
-// 'use client';
-// import Image from 'next/image';
-// import 'mapbox-gl/dist/mapbox-gl.css';
-// import Map from '@/components/map';
-// import Link from 'next/link';
-
-
-
-// export default function Home() {
-
-//   return (
-//     <div className='flex flex-col h-screen md:flex-row'> 
-//      <Map/>
-//       <div className='flex-1 p-3'>
-//         {/* Hedder */}
-//         <div className='flex item-center justify-between'> 
-
-//         <Image src="/logo-black.png" alt ="Logo" width={70} height={70} className='p-3'/>
-
-//         <div className='flex items-center mr-4'>
-//         <div className=' w-20 text-sm'>Nishanth</div>
-//         <div> <Image src="/profile.jpg" alt ="Logo" width={70} height={70} className='h-12 w-12 rounded-full border border-gray-950 p-px'/></div>
-
-//          </div>
-
-//         </div>
-//         {/* ActionButton */}
-//         <div className='flex'>
-
-//           <div className='flex-1'>
-//           <Link href="/search">
-//           <div className='bg-gray-200  m-1 h-32 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-xl'>
-//             <Image src="/Ride.png" alt ="Logo" width={100} height={70} />
-//             Ride
-//           </div>
-//           </Link>
-//           </div>
-
-//           <div className='flex-1'>
-//           <Link href="/search">
-//           <div className='bg-gray-200  m-1 h-32 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-xl'>
-//           <Image src="/Rent.png" alt ="Logo" width={100} height={70}/>
-//             Rent
-//           </div>
-//           </Link>
-//           </div>
-
-
-//           <div className='flex-1'>
-//           <Link href="/search">
-//           <div className='bg-gray-200  m-1 h-32 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-xl'>
-//           <Image src="/History.png" alt ="Logo" width={70} height={70}/>
-//             History
-//           </div>
-//           </Link>
-
-//          </div>
-
-//       </div>
-
-//         {/* Inputbutton */}
-//         <Link href="/search">
-//         <div className='h-20 bg-gray-200 text-2xl p-4 flex items-center mt-8  justify-center rounded-lg transform hover:scale-90 transition'> Quick Ride</div>
-//         </Link>
-       
-//       </div>
-//     </div>
-    
-    
-//   )
-// }
 'use client';
 import Image from 'next/image';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import Map from '@/components/map';
+import Map from '@/components/Map';
 import Link from 'next/link';
 
 export default function Home() {
