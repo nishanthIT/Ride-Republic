@@ -6,6 +6,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
+
+
     <div className='flex flex-col h-screen md:flex-row'>
       <Map />
       <div className='flex-1 p-3'>
@@ -22,19 +24,52 @@ export default function Home() {
         </div>
 
         {/* Action Buttons */}
-        <div className='flex  md:mt-20 md:mb-28'>
+         <div>
+
+        <div className='flex  md:mt-10 md:mb-10'>
           <div className='flex-1'>
             <Link href="/search">
-              <div className='bg-gray-200 m-1 h-32 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-lg'>
-                <Image src="/Ride.png" alt="Ride" width={100} height={70} />
-                Ride
+              <div className='bg-gray-200 m-1 h-28 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-lg'>
+                <Image src="/bike.png" alt="Ride" width={60} height={50} />
+                Bike
               </div>
             </Link>
           </div>
 
           <div className='flex-1'>
             <Link href="/search">
-              <div className='bg-gray-200 m-1 h-32 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-lg '>
+              <div className='bg-gray-200 m-1 h-28 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-lg '>
+                <Image src="/auto.png" alt="Rent" width={60} height={50} />
+                Auto
+              </div>
+            </Link>
+          </div>
+
+          <div className='flex-1'>
+            <Link href="/search">
+              <div className='bg-gray-200 m-1 h-28 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-lg'>
+                <Image src="/Ride.png" alt="History" width={100} height={70} />
+                car
+              </div>
+            </Link>
+          </div>
+        </div>
+
+
+        {/* second Row */}
+        <div className='flex  md:mt-10 md:mb-10'>
+          <div className='flex-1'>
+            <Link href="/search">
+              <div className='bg-gray-200 m-1 h-28 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-base'>
+                <Image src="/Pink.png" alt="Ride" width={100} height={70} />
+                Pink car
+              </div>
+            </Link>
+          </div>
+
+          <div className='flex-1'>
+            <Link href="/search">
+              <div className='bg-gray-200 m-1 h-28 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-lg '>
                 <Image src="/Rent.png" alt="Rent" width={100} height={70} />
                 Rent
               </div>
@@ -43,12 +78,13 @@ export default function Home() {
 
           <div className='flex-1'>
             <Link href="/search">
-              <div className='bg-gray-200 m-1 h-32 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-base'>
-                <Image src="/Pink.png" alt="History" width={100} height={70} />
-                Pink Caption
+              <div className='bg-gray-200 m-1 h-28 flex flex-col items-center justify-center rounded-lg transform hover:scale-105 transition text-base'>
+                <Image src="/black.png" alt="History" width={100} height={70} />
+                Self Drive
               </div>
             </Link>
           </div>
+        </div>
         </div>
 
         {/* Input Button */}
